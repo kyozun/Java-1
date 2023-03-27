@@ -1,5 +1,4 @@
 package Bai3;
-
 import java.util.Scanner;
 
 public class Manager extends Staff {
