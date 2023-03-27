@@ -1,3 +1,5 @@
+package Bai2;
+
 import java.util.Scanner;
 public class Student {
     protected String name;

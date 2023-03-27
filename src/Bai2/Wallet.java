@@ -1,3 +1,5 @@
+package Bai2;
+
 public class Wallet {
     private static final StringBuilder sb = new StringBuilder();
 
