@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Employee extends Staff{
 
-    public void inputData() {
+    public void inputData()1 {
         super.inputData();
     }
 
