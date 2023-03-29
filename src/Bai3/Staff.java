@@ -12,7 +12,6 @@ public class Staff {
 //        this.email = email;
 //        this.salary = salary;
 //    }
-
     public void inputData() {
         Scanner input = new Scanner(System.in);
         System.out.print("Nhập tên: ");

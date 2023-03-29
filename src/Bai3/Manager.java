@@ -5,6 +5,7 @@ public class Manager extends Staff {
     private String stringDepartment = "";
 
     public void inputData() {
+        //Call method of parent class
        super.inputData();
     }
 
