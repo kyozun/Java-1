@@ -2,28 +2,17 @@ package Bai3;
 
 import java.util.Scanner;
 
-public class Staff {
-    private String name;
-    private String email;
-    private int salary;
+public abstract class Staff {
+    public String name;
+    public int salary;
 
-//    Staff(String name, String email, int salary) {
-//        this.name = name;
-//        this.email = email;
-//        this.salary = salary;
-//    }
-    public void inputData() {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Nhập tên: ");
-        this.name = input.nextLine();
-    }
+    public abstract void inputData();
+    public abstract void displayData();
 
-    public void displayData() {
-        System.out.print("Tên của bạn là: " + this.name);
-    }
+    public abstract int getSalary();
 
-    public void getSalary() {
-        System.out.println("Lương của bạn là: " + this.salary);
+    public void setSalary(int sal) {
+        this.salary = sal;
     }
 
 

@@ -2,19 +2,20 @@ package Bai3;
 import java.util.Scanner;
 
 public class Employee extends Staff{
-
+    @Override
     public void inputData() {
-        super.inputData();
+        Scanner input = new Scanner(System.in);
+        System.out.print("Nhập tên: ");
+        this.name = input.nextLine();
     }
 
     public void displayData() {
-        super.displayData();
+        System.out.println("Tên của bạn là: " + this.name);
     }
 
-    public static void main(String[] args) {
-        Employee employee = new Employee();
-        employee.inputData();
-        employee.displayData();
+    @Override
+    public int getSalary() {
+        return this.salary;
     }
 
 }
